@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section start here */
+header{
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   text-align: center;
+   color: white;
+position: relative;
+}
+.banner-section{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+/* header section ends here */
+
+/* donate section start here */
+.donate-section{
+    text-align: center;
+}
+.donated{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tk-style{
+    background-color: rgb(140, 140, 140);
+    padding: 10px;
+    border-radius: 5px;
+}
+.an{
+    border: none;
+}
+/* donate section start here */
